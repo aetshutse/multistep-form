@@ -9,9 +9,9 @@ type FormData = {
   lastName: string
   age: string
   street: string
+  province: string
   city: string
-  state: string
-  zip: string
+  postalCode: string
   email: string
   password: string
 }
@@ -21,9 +21,9 @@ const INITIAL_DATA: FormData = {
   lastName: "",
   age: "",
   street: "",
+  province: "",
   city: "",
-  state: "",
-  zip: "",
+  postalCode: "",
   email: "",
   password: "",
 }
